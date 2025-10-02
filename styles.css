@@ -1,0 +1,151 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 
+{
+    color: #000000;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul 
+{
+    list-style-type: none;
+    background-color: #c1c3c5;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li 
+{
+    display: inline;
+    margin: 0 15px;
+}
+
+ul li a 
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover 
+{
+    color: yellow;
+}
+
+form 
+{
+    background-color: #ffffff;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #003366;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label 
+{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+textarea,
+select 
+{
+    width: 95%;
+    padding: 8px;
+    margin: 6px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] 
+{
+    margin-right: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] 
+{
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 10px 8px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+input[type="submit"]:hover 
+{
+    background-color: #0055aa;
+}
+
+input[type="reset"]:hover 
+{
+    background-color: #cc0000;
+}
+
+label:hover 
+{
+    color: #0055aa;
+    cursor: pointer;
+}
+
+footer 
+{
+    background-color: #707a85;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a 
+{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover 
+{
+    text-decoration: underline;
+}
+
+#event-form 
+{
+    background-color: #eef3f9;
+}
+
+
+.quote-box 
+{
+    background-color: #d3d2d2;
+    border-left: 5px solid #000000;
+    margin: 20px auto;
+    padding: 15px;
+    width: 70%;
+    font-style: italic;
+}
